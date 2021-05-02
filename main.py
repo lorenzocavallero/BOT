@@ -19,7 +19,7 @@ def error(update, context):
   print(f"Update {update} caused error {context.error}")
 
 def main():
-  updater = Updater.(keys.API_KEYS, use_context = True)
+  updater = Updater(keys.API_KEYS, use_context = True)
   dp = updater.dispatcher
   dp.add_handler(CommandHandler("start", start_command))
   dp.add_handler(CommandHandler("help", help_command))
