@@ -7,7 +7,7 @@ def sample_responsed(input_text):
     return "Hey! How's it going?"
   if user_message in ("who are you", "sho are you?"):
     return "I'm a Bot!"
-  if user_message in ("time", "time?):
+  if user_message in ("time", "time?"):
     now = datetime.now()
     date_time = now.strftime("%d/%m/%y, %H:%M:%S")
                       
