@@ -8,7 +8,7 @@ def start_command(update, context):
   update.message.reply_text("Type something random to get started")
                             
 def help_command(update, context):
-  update.message.reply_text("If you need help you should ask for it on Google!")
+  update.message.reply_text("If you need help you should ask for it on Google! LORENZO")
   
 def handle_message(update, context):
   text = str(update.message.text).lower()
