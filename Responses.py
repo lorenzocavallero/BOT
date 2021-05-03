@@ -3,8 +3,8 @@ from datetime import datetime
 def sample_responses(input_text):
   user_message = str(input_text).lower()
   
-  if user_message in ("hello", "hi", "sup"):
-    return "Hey! How's it going?"
+  if user_message in ("Chi è il più bello del reame?"):
+    return "Matteo Chen aka KAIXI"
   if user_message in ("who are you", "sho are you?"):
     return "I'm a Bot!"
   if user_message in ("time", "time?"):

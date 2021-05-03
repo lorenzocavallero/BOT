@@ -5,7 +5,7 @@ import Responses as R
 print("Bot started...")
 
 def start_command(update, context):
-  update.message.reply_text("Type something random to get started")
+  update.message.reply_text("WE")
                             
 def help_command(update, context):
   update.message.reply_text("If you need help you should ask for it on Google! LORENZO")
