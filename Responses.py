@@ -5,11 +5,11 @@ def sample_responses(input_text):
   
   if user_message in ("Hello", "Hi", "Hello!"):
     return "Welcome"
-  if user_message in ("who are you", "sho are you?"):
+  if user_message in ("who are you", "who are you?"):
     return "I'm a Bot!"
   if user_message in ("time", "time?"):
     now = datetime.now()
     date_time = now.strftime("%d/%m/%y, %H:%M:%S")
                       
     return str(date_time)
-  return "I don't understand you."
+return "I don't understand you."
