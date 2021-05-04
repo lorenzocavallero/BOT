@@ -1,6 +1,6 @@
 cd git/BOT/BOT/
 
-git checkout -b main
+git checkout -b BOT
 git remote update
 
 UPSTREAM=${1:-'@{u}'}
