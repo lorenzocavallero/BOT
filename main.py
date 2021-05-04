@@ -1,11 +1,11 @@
 import Constants as keys
-from telegram.ext import *
+from telegram.ext import *n
 import Responses as R
 
 print("Bot started...")
 
 def start_command(update, context):
-  update.message.reply_text("WE")
+  update.message.reply_text("Lorenzo Cavallero's BOT")
                             
 def help_command(update, context):
   update.message.reply_text("If you need help you should ask for it on Google! LORENZO")
