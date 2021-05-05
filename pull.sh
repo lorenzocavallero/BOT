@@ -1,2 +1,2 @@
 #! /usr/bin/bash
-git pull
+spawn git pull
